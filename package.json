@@ -1,0 +1,11 @@
+{
+  "name": "copy-url-to-file",
+  "version": "1.0.0",
+  "description": "sample chrome extension",
+  "main": "index.js",
+  "author": "tghoul",
+  "license": "MIT",
+  "dependencies": {
+    "@types/chrome": "^0.0.74"
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "name": "网址收集工具",
+    "version": "1.0",
+    "description": "收集网址并输出格式化文本文件",
+    "permissions": [
+      "contextMenus",
+      "downloads",
+      "activeTab",
+      "declarativeContent",
+      "storage"
+    ],
+    "background": {
+      "scripts": [
+        "static/background.js",
+        "static/menu.js"
+      ],
+      "persistent": false
+    },
+    "options_page": "static/options.html",
+    "page_action": {
+      "default_popup": "static/popup.html",
+      "default_icon": {
+        "16": "static/images/get_started16.png",
+        "32": "static/images/get_started32.png",
+        "48": "static/images/get_started48.png",
+        "128": "static/images/get_started128.png"
+      }
+    },
+    "icons": {
+      "16": "static/images/get_started16.png",
+      "32": "static/images/get_started32.png",
+      "48": "static/images/get_started48.png",
+      "128": "static/images/get_started128.png"
+    },
+    "manifest_version": 2
+}
