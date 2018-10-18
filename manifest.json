@@ -5,6 +5,7 @@
     "permissions": [
       "contextMenus",
       "downloads",
+      "tabs",
       "activeTab",
       "declarativeContent",
       "storage"
@@ -31,6 +32,22 @@
       "32": "static/images/get_started32.png",
       "48": "static/images/get_started48.png",
       "128": "static/images/get_started128.png"
+    },
+    "commands": {
+      "append-file": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+0",
+          "mac": "Command+Shift+0"
+        },
+        "description": "复制链接到文件中"
+      },
+      "download-file": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+9",
+          "mac": "Command+Shift+9"
+        },
+        "description": "下载文件"
+      }
     },
     "manifest_version": 2
 }
